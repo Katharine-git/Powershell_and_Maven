@@ -13,6 +13,6 @@ A properties file is added to generalise the scripts and improve flexibility.</b
 - Sets the environment variables.
 
 #3. <i>Download the zip file</i> from a seperate location and install <i>if no access to internet.</i>
-- For unavailability of internet access, extracts the zip file from a seperate location(preferrably a repository) and installs maven.
+- For unavailability of internet access, extracts the zip file from a seperate location and installs maven.
 - Sets environment variables
 
