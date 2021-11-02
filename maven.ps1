@@ -29,7 +29,7 @@ function uninstallMaven ($path) {
 
 }
 
-#downloading
+#downloading zip file
 function downloadmaven ($url,$destination) {
 
   Invoke-WebRequest -Uri $url -OutFile $destination
