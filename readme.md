@@ -1,5 +1,5 @@
-This repository contains scripts that uninstalls and install Apache Maven 3.8.3 and also checks for internet connectivity.
-A properties file is added to generalise the scripts and improve flexibility.
+<b>This repository contains scripts that uninstalls and install Apache Maven 3.8.3 and also checks for internet connectivity.
+A properties file is added to generalise the scripts and improve flexibility.</b>
 
 <b>The script contains 3 function ;</b>
 
