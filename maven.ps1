@@ -80,8 +80,7 @@ Write-Host "---------------------------"
 Write-Host "    Uninstalling Maven"
 Write-Host "---------------------------"
 
-
-
+#Calling Maven Uninstall Function
 uninstallMaven "$unzip_destination/$mavenversion"
 
 Write-Host "------------------------------------"
@@ -97,6 +96,7 @@ Write-Host "--------------------------------"
 Write-Host "  Preparing for maven install"
 Write-Host "--------------------------------"
 
+#Maven Install Function call
 if ((Test-Connection -ComputerName $servername -Quiet) -eq "True")
 {
   Write-Verbose "Server have Internet access"
