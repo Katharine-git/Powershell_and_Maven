@@ -75,8 +75,27 @@ $VerbosePreference = "continue"
 $servername = $output.servername
 
 Start-Transcript -Path $logpath
+
+Write-Host "---------------------------"
+Write-Host "    Uninstalling Maven"
+Write-Host "---------------------------"
+
+
+
 uninstallMaven "$unzip_destination/$mavenversion"
 
+Write-Host "------------------------------------"
+Write-Host "   Maven Successfully Uninstalled"
+Write-Host "-----------------------------------"
+
+Write-Host " . "
+Write-Host " . "
+Write-Host " . "
+
+
+Write-Host "--------------------------------"
+Write-Host "  Preparing for maven install"
+Write-Host "--------------------------------"
 
 if ((Test-Connection -ComputerName $servername -Quiet) -eq "True")
 {
